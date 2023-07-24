@@ -1,5 +1,5 @@
 blueprint:
-  name: ZHA - Tuya 4-Button Scene Switch ("Moes") (_TZ3000_wkai4ga5)
+  name: ZHA - Tuya 4-Button Scene Switch ("Moes") (_TZ3000_xabckq1v)
   description: Automate your Tuya 4-Button Scene Switch using ZHA events.
   domain: automation
   input:
@@ -9,8 +9,8 @@ blueprint:
       selector:
         device:
           integration: zha
-          manufacturer: _TZ3000_wkai4ga5
-          model: TS0044
+          manufacturer: _TZ3000_xabckq1v
+          model: TS004F
           multiple: false
     button_one_short_press:
       name: Button 1 (upper left), single press
